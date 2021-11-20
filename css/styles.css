@@ -260,12 +260,7 @@ body {
   background-color: var(--team-bg-color);
   margin-bottom: 30px;
   }
-/* 
-.feature-icon {
-  width: 70px;
-  height: 70px;
-} */
-
+  +3
 /* ------------------Duties & Team----------------- */
 .duties {
   padding: 0 0 94px 0;
@@ -312,16 +307,13 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .social-item {
   width: 44px;
   height: 44px;
 }
-
 .social-item + .social-item {
   margin-left: 10px;
 }
-
 .social-link {
   width: 100%;
   height: 100%;
@@ -332,44 +324,44 @@ body {
   background: var(--primary-white-color);
   color: #afb1b8;
 }
-.social-icon {
-  /* width: 20px;
-  height: 20px; */
-  fill: currentColor;
-}
-
 .social-link:hover,
 .social-link:focus {
   background-color:var(--accent-color);
   color: var(--primary-white-color);
 }
-
+.social-icon {
+  fill: currentColor;
+}
 /* ------------------Customers----------------- */
 
 .customer-list {
   display: flex;
   justify-content: center;
 }
+.customer-item {
+  width: 170px;
+  height: 92px;
+}
 .customer-item + .customer-item {
   margin-left: 30px;
 }
 .customer-link {
-  display: block;
-  width: 170px;
-  height: 92px;
+  width: 100%;
+  height: 100%;;
   border-radius: 4px;
-  padding: 16px 32px;
   border: 1px solid #afb1b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-white-color);
   color: #afb1b8;
 }
 .customer-link:hover,
-.customerlink:focus {
-  color: var(--accent-color);
+.customer-link:focus {
   border-color: var(--accent-color);
+  color: var(--accent-color);
 }
 .customer-icon {
-  /* width: 106px;
-  height: 60px; */
   fill: currentColor;
 }
 /* -----------------Footer---------------- */
